@@ -1,0 +1,49 @@
+* {box-sizing: border-box}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+  max-width:850px;
+  margin:auto;
+}
+.align{
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    opacity: 0.9;
+    border-radius: 8px;
+    
+}
+/*  styles of hr */
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  .addbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 18px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    font-size: x-large ;
+    font-weight: bolder;
+  }
+  
+  .addbtn:hover {
+    opacity:1;
+  }
+  
+  /* Add a blue text color to links */
+  a {
+    color: dodgerblue;
+  }
+  .text-input{
+      padding:8px;
+      display:block;
+      border:none;
+      border-bottom:1px solid #ccc;
+      width:100%
+    }
